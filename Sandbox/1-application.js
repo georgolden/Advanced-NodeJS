@@ -1,6 +1,6 @@
 // File contains a small piece of the source to demonstrate main module
 // of a sample application to be executed in the sandboxed context by
-// another pice of code from `framework.js`. Read README.md for tasks.
+// another pice of code from `framework.js`.
 
 const fs = require('fs');
 const net = require('net');

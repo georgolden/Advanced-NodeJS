@@ -31,7 +31,7 @@ const sandbox = vm.createContext(context);
 const api = { timers,  events };
 
 // Read an application source code from the file
-const fileName = './application.js';
+const fileName = './1-application.js';
 fs.readFile(fileName, 'utf8', (err, src) => {
   // We need to handle errors here
 
