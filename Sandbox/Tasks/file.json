@@ -1,0 +1,11 @@
+[
+  { "id": 26, "name": "course26", "score": 9.9, "subject": "Backend" },
+  { "id": 60, "name": "course60", "score": 8.6, "subject": "Backend" },
+  { "id": 59, "name": "course59", "score": 8.3, "subject": "Backend" },
+  { "id": 25, "name": "course25", "score": 8, "subject": "Backend" },
+  { "id": 37, "name": "course37", "score": 6.6, "subject": "Backend" },
+  { "id": 47, "name": "course47", "score": 6.1, "subject": "Backend" },
+  { "id": 88, "name": "course88", "score": 6, "subject": "Backend" },
+  { "id": 36, "name": "course36", "score": 5.9, "subject": "Backend" },
+  { "id": 28, "name": "course28", "score": 5, "subject": "Backend" }
+]

@@ -24,7 +24,7 @@ const context = {
   }
 };
 
-context.global = context;
+// context.global = context;
 const sandbox = vm.createContext(context);
 
 // Prepare lambda context injection
@@ -52,7 +52,7 @@ fs.readFile(fileName, 'utf8', (err, src) => {
     const f = script.runInNewContext(sandbox, { timeout: EXECUTION_TIMEOUT });
     f(api);
     const exported = sandbox.module.exports;
-    console.dir({ exported });
+    exported();
   } catch (e) {
     console.dir(e);
     console.log('Execution timeout');
