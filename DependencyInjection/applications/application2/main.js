@@ -1,9 +1,9 @@
+const fs = require('fs');
 
-
-api.console.log('From application2 global context')
+api.console.log('From application2 global context');
 
 module.exports = () => {
   api.timers.setTimeout(() => {
-    api.console.log('From application2 exported function')
+    api.console.log('From application2 exported function');
   }, 5000);
-}
+};

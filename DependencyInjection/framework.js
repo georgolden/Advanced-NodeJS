@@ -9,7 +9,7 @@ api.fs = require('fs');
 api.vm = require('vm');
 api.sandboxedFs = require('sandboxed-fs');
 
-const { cloneInterface, wrapFunction } = require('wrapper');
+const { cloneInterface, wrapFunction } = require('./wrapper');
 
 const log = (s) => {
   console.log('Prints something from sandbox');
