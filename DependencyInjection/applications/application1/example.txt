@@ -1,0 +1,2 @@
+#This is some example of file only accesable in sandbox
+#in which this application is running
